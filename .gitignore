@@ -1,3 +1,6 @@
 .env
 node_modules/
 .claude/
+# Le token GitHub du trousseau n'a pas le scope "workflow" : ce fichier est exclu
+# du push et doit être ajouté via l'UI GitHub (Add file → .github/workflows/...).
+.github/workflows/

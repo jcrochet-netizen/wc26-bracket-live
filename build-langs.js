@@ -19,7 +19,7 @@ master = master.replace(/\/\*WC_DATA_START\*\/[\s\S]*?\/\*WC_DATA_END\*\//, "/*W
 // Remplacements communs (indépendants de la langue) appliqués à chaque variante :
 function urlAndData(lang) {
   return [
-    ["/bracket-wc2026/bracket-live.html", "/bracket-wc2026/bracket-live-" + lang + ".html"],
+    ["/wc26-bracket-live/bracket-live.html", "/wc26-bracket-live/bracket-live-" + lang + ".html"],
     ["'data.json?_='", "'data-" + lang + ".json?_='"],
     ["'FINALE'", "'FINAL'"],
   ];
