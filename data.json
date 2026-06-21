@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T15:18:36.656Z",
+  "updated": "2026-06-21T18:06:23.622Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "fr",
@@ -358,6 +358,18 @@
     ],
     "H": [
       {
+        "code": "ESP",
+        "name": "Espagne",
+        "short": "Espagne",
+        "flag": "es",
+        "played": 2,
+        "pts": 4,
+        "gf": 4,
+        "ga": 0,
+        "gd": 4,
+        "rank": 1
+      },
+      {
         "code": "URU",
         "name": "Uruguay",
         "short": "Uruguay",
@@ -367,30 +379,18 @@
         "gf": 1,
         "ga": 1,
         "gd": 0,
-        "rank": 1
+        "rank": 2
       },
       {
         "code": "KSA",
         "name": "Arabie Saoudite",
         "short": "Arabie Saoudite",
         "flag": "sa",
-        "played": 1,
+        "played": 2,
         "pts": 1,
         "gf": 1,
-        "ga": 1,
-        "gd": 0,
-        "rank": 2
-      },
-      {
-        "code": "ESP",
-        "name": "Espagne",
-        "short": "Espagne",
-        "flag": "es",
-        "played": 1,
-        "pts": 1,
-        "gf": 0,
-        "ga": 0,
-        "gd": 0,
+        "ga": 5,
+        "gd": -4,
         "rank": 3
       },
       {
@@ -609,12 +609,12 @@
   },
   "best3": [
     "A",
+    "B",
     "C",
     "D",
     "E",
     "F",
     "G",
-    "H",
     "K"
   ],
   "thirdsRanking": [
@@ -669,16 +669,6 @@
       "qualified": true
     },
     {
-      "group": "H",
-      "code": "ESP",
-      "name": "Espagne",
-      "flag": "es",
-      "pts": 1,
-      "gd": 0,
-      "gf": 0,
-      "qualified": true
-    },
-    {
       "group": "A",
       "code": "CZE",
       "name": "Rép. Tchèque",
@@ -706,6 +696,16 @@
       "pts": 1,
       "gd": -3,
       "gf": 2,
+      "qualified": true
+    },
+    {
+      "group": "H",
+      "code": "KSA",
+      "name": "Arabie Saoudite",
+      "flag": "sa",
+      "pts": 1,
+      "gd": -4,
+      "gf": 1,
       "qualified": false
     },
     {
