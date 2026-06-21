@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T18:06:23.626Z",
+  "updated": "2026-06-21T20:11:41.158Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "es",
@@ -332,10 +332,10 @@
         "rank": 2
       },
       {
-        "code": "BEL",
-        "name": "Bélgica",
-        "short": "Bélgica",
-        "flag": "be",
+        "code": "EGY",
+        "name": "Egipto",
+        "short": "Egipto",
+        "flag": "eg",
         "played": 1,
         "pts": 1,
         "gf": 1,
@@ -344,10 +344,10 @@
         "rank": 3
       },
       {
-        "code": "EGY",
-        "name": "Egipto",
-        "short": "Egipto",
-        "flag": "eg",
+        "code": "BEL",
+        "name": "Bélgica",
+        "short": "Bélgica",
+        "flag": "be",
         "played": 1,
         "pts": 1,
         "gf": 1,
@@ -650,9 +650,9 @@
     },
     {
       "group": "G",
-      "code": "BEL",
-      "name": "Bélgica",
-      "flag": "be",
+      "code": "EGY",
+      "name": "Egipto",
+      "flag": "eg",
       "pts": 1,
       "gd": 0,
       "gf": 1,
