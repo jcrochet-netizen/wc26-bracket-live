@@ -1,0 +1,44 @@
+name: Refresh WC26 live bracket
+
+# Régénère data.json depuis SportMonks et commit s'il a changé.
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # toutes les 30 minutes (UTC) — plus fréquent pendant le tournoi
+  workflow_dispatch: {}       # bouton "Run workflow" manuel
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-live-bracket
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch latest standings
+        env:
+          SPORTMONKS_API_TOKEN: ${{ secrets.SPORTMONKS_API_TOKEN }}
+        run: node fetch-data.js
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data.json data-en.json data-pt.json data-es.json bracket-live.html bracket-live-en.html bracket-live-pt.html bracket-live-es.html; then
+            echo "Aucun changement — rien à commit."
+          else
+            git add data.json data-en.json data-pt.json data-es.json bracket-live.html bracket-live-en.html bracket-live-pt.html bracket-live-es.html
+            git commit -m "chore: refresh WC26 live standings [skip ci]"
+            git push
+            echo "Classements mis à jour et poussés."
+          fi
