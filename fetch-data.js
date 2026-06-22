@@ -345,21 +345,24 @@ async function main() {
       })),
     };
     const dataFile = lang === "fr" ? "data.json" : `data-${lang}.json`;
-    const htmlFile = lang === "fr" ? "bracket-live.html" : `bracket-live-${lang}.html`;
+    // Le FR alimente aussi la variante thème sombre (même langue, mêmes données).
+    const htmlFiles = lang === "fr" ? ["bracket-live.html", "bracket-live-dark.html"] : [`bracket-live-${lang}.html`];
     fs.writeFileSync(path.join(__dirname, dataFile), JSON.stringify(out, null, 2));
 
     // Copie de secours embarquée dans le widget (repli pour l'ouverture en local file://).
-    try {
-      const htmlPath = path.join(__dirname, htmlFile);
-      if (fs.existsSync(htmlPath)) {
-        const html = fs.readFileSync(htmlPath, "utf8");
-        const re = /\/\*WC_DATA_START\*\/[\s\S]*?\/\*WC_DATA_END\*\//;
-        if (re.test(html)) {
-          fs.writeFileSync(htmlPath, html.replace(re, "/*WC_DATA_START*/" + JSON.stringify(out) + "/*WC_DATA_END*/"));
+    for (const htmlFile of htmlFiles) {
+      try {
+        const htmlPath = path.join(__dirname, htmlFile);
+        if (fs.existsSync(htmlPath)) {
+          const html = fs.readFileSync(htmlPath, "utf8");
+          const re = /\/\*WC_DATA_START\*\/[\s\S]*?\/\*WC_DATA_END\*\//;
+          if (re.test(html)) {
+            fs.writeFileSync(htmlPath, html.replace(re, "/*WC_DATA_START*/" + JSON.stringify(out) + "/*WC_DATA_END*/"));
+          }
         }
+      } catch (e) {
+        console.warn(`⚠ injection HTML ignorée (${htmlFile}) :`, e.message);
       }
-    } catch (e) {
-      console.warn(`⚠ injection HTML ignorée (${lang}) :`, e.message);
     }
     console.log(`✓ ${dataFile} écrit (${lang})`);
   }
