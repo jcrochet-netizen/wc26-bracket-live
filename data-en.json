@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T18:43:36.608Z",
+  "updated": "2026-06-22T21:30:18.280Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "en",
@@ -462,11 +462,11 @@
         "name": "Argentina",
         "short": "Argentina",
         "flag": "ar",
-        "played": 1,
-        "pts": 3,
-        "gf": 3,
+        "played": 2,
+        "pts": 6,
+        "gf": 5,
         "ga": 0,
-        "gd": 3,
+        "gd": 5,
         "rank": 1
       },
       {
@@ -474,11 +474,11 @@
         "name": "Austria",
         "short": "Austria",
         "flag": "at",
-        "played": 1,
+        "played": 2,
         "pts": 3,
         "gf": 3,
-        "ga": 1,
-        "gd": 2,
+        "ga": 3,
+        "gd": 0,
         "rank": 2
       },
       {
