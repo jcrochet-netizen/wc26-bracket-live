@@ -85,6 +85,7 @@ chaque HTML (généré par `build-langs.js` à partir du master FR).
 | English | `bracket-live-en.html` | `data-en.json` |
 | Português (BR) | `bracket-live-pt.html` | `data-pt.json` |
 | Español | `bracket-live-es.html` | `data-es.json` |
+| Italiano | `bracket-live-it.html` | `data-it.json` |
 
 `index.html` est un sélecteur de langue.
 

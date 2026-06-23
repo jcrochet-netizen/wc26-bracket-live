@@ -18,11 +18,13 @@ master = master.replace(/\/\*WC_DATA_START\*\/[\s\S]*?\/\*WC_DATA_END\*\//, "/*W
 
 // Remplacements communs (indépendants de la langue) appliqués à chaque variante :
 function urlAndData(lang) {
-  return [
+  const r = [
     ["/wc26-bracket-live/bracket-live.html", "/wc26-bracket-live/bracket-live-" + lang + ".html"],
     ["'data.json?_='", "'data-" + lang + ".json?_='"],
-    ["'FINALE'", "'FINAL'"],
   ];
+  // « FINALE » est déjà correct en italien ; on ne le traduit que pour en/pt/es.
+  if (lang !== "it") r.push(["'FINALE'", "'FINAL'"]);
+  return r;
 }
 
 const LANGS = {
@@ -150,6 +152,48 @@ const LANGS = {
       ["Génération en cours…", "Generando…"],
       ["'Erreur lors de la génération : '", "'Error al generar: '"],
       ["Découvrez mon bracket complet de la Coupe du Monde FIFA 2026 🏆 ! Les résultats des groupes et jusqu\\'à la finale.", "¡Mira mi cuadro completo del Mundial FIFA 2026 🏆! De la fase de grupos hasta la final."],
+    ],
+  },
+  it: {
+    htmlLang: "it", ogLocale: "it_IT", dateLoc: "it-IT",
+    repl: [
+      ['<html lang="fr">', '<html lang="it">'],
+      ["Bracket LIVE de la Coupe du monde 2026 — classements en direct", "Bracket LIVE Coppa del Mondo 2026 — classifiche in diretta"],
+      ["Le bracket de la Coupe du monde 2026 auto-rempli en direct : classements des groupes en temps réel (données SportMonks) et seizièmes de finale calculés à l'instant t.", "Il bracket della Coppa del Mondo 2026 compilato in diretta: classifiche dei gironi in tempo reale (dati SportMonks) e sedicesimi di finale calcolati all'istante."],
+      ["Bracket LIVE Coupe du Monde 2026 — classements en direct | Top Mercato", "Bracket LIVE Coppa del Mondo 2026 — classifiche in diretta | Top Mercato"],
+      ["Classements des groupes de la Coupe du Monde 2026 en direct : les 1/16es de finale se remplissent automatiquement. Cliquez pour faire avancer vos favoris jusqu'à la finale.", "Classifiche dei gironi della Coppa del Mondo 2026 in diretta: i sedicesimi di finale si compilano automaticamente. Clicca per far avanzare i tuoi favoriti fino alla finale."],
+      ["Bracket LIVE Coupe du Monde 2026 — Top Mercato", "Bracket LIVE Coppa del Mondo 2026 — Top Mercato"],
+      ['content="fr_FR"', 'content="it_IT"'],
+      ["<h2>COUPE DU MONDE <span>FIFA 2026™</span></h2>", "<h2>COPPA DEL MONDO <span>FIFA 2026™</span></h2>"],
+      ["Classement des groupes en direct<br><strong>Les 1/16e se remplissent automatiquement.</strong><br>Cliquez ensuite pour faire avancer vos favoris en phase finale.", "Classifiche dei gironi in diretta<br><strong>I sedicesimi si compilano automaticamente.</strong><br>Poi clicca per far avanzare i tuoi favoriti nella fase a eliminazione."],
+      ['<span class="wc-live-badge">EN DIRECT</span>', '<span class="wc-live-badge">IN DIRETTA</span>'],
+      ["chargement…", "caricamento…"],
+      ["Phase de groupes — classement en temps réel", "Fase a gironi — classifica in tempo reale"],
+      ["1er &amp; 2e qualifiés", "1ª e 2ª qualificate"],
+      ["3e (8 meilleurs)", "3ª (8 migliori)"],
+      ["> éliminé</span>", "> eliminata</span>"],
+      ["Chargement des classements en direct…", "Caricamento delle classifiche in diretta…"],
+      ["Meilleurs 3es — qualifiés pour les seizièmes", "Migliori terze — qualificate ai sedicesimi"],
+      ["Les 8 meilleures équipes classées 3e (sur 12) qualifiées d'office, selon les critères FIFA ", "Le 8 migliori squadre classificate terze (su 12) qualificate d'ufficio, secondo i criteri FIFA "],
+      ["Glissez pour naviguer dans le bracket", "Scorri per navigare nel bracket"],
+      ["Champion du Monde 2026", "Campione del Mondo 2026"],
+      ["Partager mon pronostic", "Condividi il mio pronostico"],
+      ["Télécharger l'image du bracket", "Scarica l'immagine del bracket"],
+      [">\nE-mail\n", ">\nE-mail\n"],
+      ["À déterminer", "Da definire"],
+      ["Petite finale · 3e place", "Finale 3º/4º posto"],
+      ["'mis à jour le '", "'aggiornato il '"],
+      ["dt.toLocaleDateString('fr-FR'", "dt.toLocaleDateString('it-IT'"],
+      ["' à '+dt.toLocaleTimeString('fr-FR'", "' alle '+dt.toLocaleTimeString('it-IT'"],
+      ["el.textContent='mis à jour';", "el.textContent='aggiornato';"],
+      ["données momentanément indisponibles", "dati momentaneamente non disponibili"],
+      ["Impossible de charger les classements (data.json).", "Impossibile caricare le classifiche (data-it.json)."],
+      ["var p1='COUPE DU MONDE ';var p2='FIFA 2026\\u2122';", "var p1='COPPA DEL MONDO ';var p2='FIFA 2026\\u2122';"],
+      ["'Canada \\u00b7 Mexique \\u00b7 \\u00c9tats-Unis \\u2014 11 juin au 19 juillet 2026'", "'Classifiche dei gironi in diretta — sedicesimi compilati automaticamente'"],
+      ["'Classez chaque groupe, choisissez les meilleurs 3es, puis cliquez pour faire avancer les pays.'", "'Clicca per far avanzare i tuoi favoriti nella fase a eliminazione.'"],
+      ["Génération en cours…", "Generazione in corso…"],
+      ["'Erreur lors de la génération : '", "'Errore durante la generazione: '"],
+      ["Découvrez mon bracket complet de la Coupe du Monde FIFA 2026 🏆 ! Les résultats des groupes et jusqu\\'à la finale.", "Scopri il mio bracket completo della Coppa del Mondo FIFA 2026 🏆! Dalle classifiche dei gironi fino alla finale."],
     ],
   },
 };

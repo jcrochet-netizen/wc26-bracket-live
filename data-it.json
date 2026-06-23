@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-23T10:25:07.811Z",
+  "updated": "2026-06-23T10:25:07.814Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
-  "lang": "en",
+  "lang": "it",
   "qualifyCount": 8,
   "allPlayed": false,
   "groups": {
     "A": [
       {
         "code": "MEX",
-        "name": "Mexico",
-        "short": "Mexico",
+        "name": "Messico",
+        "short": "Messico",
         "flag": "mx",
         "played": 2,
         "pts": 6,
@@ -21,8 +21,8 @@
       },
       {
         "code": "KOR",
-        "name": "South Korea",
-        "short": "South Korea",
+        "name": "Corea del Sud",
+        "short": "Corea del Sud",
         "flag": "kr",
         "played": 2,
         "pts": 3,
@@ -33,8 +33,8 @@
       },
       {
         "code": "CZE",
-        "name": "Czechia",
-        "short": "Czechia",
+        "name": "Cechia",
+        "short": "Cechia",
         "flag": "cz",
         "played": 2,
         "pts": 1,
@@ -45,8 +45,8 @@
       },
       {
         "code": "RSA",
-        "name": "South Africa",
-        "short": "South Africa",
+        "name": "Sudafrica",
+        "short": "Sudafrica",
         "flag": "za",
         "played": 2,
         "pts": 1,
@@ -71,8 +71,8 @@
       },
       {
         "code": "SUI",
-        "name": "Switzerland",
-        "short": "Switzerland",
+        "name": "Svizzera",
+        "short": "Svizzera",
         "flag": "ch",
         "played": 2,
         "pts": 4,
@@ -83,8 +83,8 @@
       },
       {
         "code": "BIH",
-        "name": "Bosnia & Herzegovina",
-        "short": "Bosnia & Herzegovina",
+        "name": "Bosnia ed Erzegovina",
+        "short": "Bosnia ed Erzegovina",
         "flag": "ba",
         "played": 2,
         "pts": 1,
@@ -109,8 +109,8 @@
     "C": [
       {
         "code": "BRA",
-        "name": "Brazil",
-        "short": "Brazil",
+        "name": "Brasile",
+        "short": "Brasile",
         "flag": "br",
         "played": 2,
         "pts": 4,
@@ -121,8 +121,8 @@
       },
       {
         "code": "MAR",
-        "name": "Morocco",
-        "short": "Morocco",
+        "name": "Marocco",
+        "short": "Marocco",
         "flag": "ma",
         "played": 2,
         "pts": 4,
@@ -133,8 +133,8 @@
       },
       {
         "code": "SCO",
-        "name": "Scotland",
-        "short": "Scotland",
+        "name": "Scozia",
+        "short": "Scozia",
         "flag": "gb-sct",
         "played": 2,
         "pts": 3,
@@ -159,8 +159,8 @@
     "D": [
       {
         "code": "USA",
-        "name": "United States",
-        "short": "United States",
+        "name": "Stati Uniti",
+        "short": "Stati Uniti",
         "flag": "us",
         "played": 2,
         "pts": 6,
@@ -195,8 +195,8 @@
       },
       {
         "code": "TUR",
-        "name": "Türkiye",
-        "short": "Türkiye",
+        "name": "Turchia",
+        "short": "Turchia",
         "flag": "tr",
         "played": 2,
         "pts": 0,
@@ -209,8 +209,8 @@
     "E": [
       {
         "code": "GER",
-        "name": "Germany",
-        "short": "Germany",
+        "name": "Germania",
+        "short": "Germania",
         "flag": "de",
         "played": 2,
         "pts": 6,
@@ -221,8 +221,8 @@
       },
       {
         "code": "CIV",
-        "name": "Ivory Coast",
-        "short": "Ivory Coast",
+        "name": "Costa d'Avorio",
+        "short": "Costa d'Avorio",
         "flag": "ci",
         "played": 2,
         "pts": 3,
@@ -259,8 +259,8 @@
     "F": [
       {
         "code": "NED",
-        "name": "Netherlands",
-        "short": "Netherlands",
+        "name": "Paesi Bassi",
+        "short": "Paesi Bassi",
         "flag": "nl",
         "played": 2,
         "pts": 4,
@@ -271,8 +271,8 @@
       },
       {
         "code": "JPN",
-        "name": "Japan",
-        "short": "Japan",
+        "name": "Giappone",
+        "short": "Giappone",
         "flag": "jp",
         "played": 2,
         "pts": 4,
@@ -283,8 +283,8 @@
       },
       {
         "code": "SWE",
-        "name": "Sweden",
-        "short": "Sweden",
+        "name": "Svezia",
+        "short": "Svezia",
         "flag": "se",
         "played": 2,
         "pts": 3,
@@ -309,8 +309,8 @@
     "G": [
       {
         "code": "EGY",
-        "name": "Egypt",
-        "short": "Egypt",
+        "name": "Egitto",
+        "short": "Egitto",
         "flag": "eg",
         "played": 2,
         "pts": 4,
@@ -333,8 +333,8 @@
       },
       {
         "code": "BEL",
-        "name": "Belgium",
-        "short": "Belgium",
+        "name": "Belgio",
+        "short": "Belgio",
         "flag": "be",
         "played": 2,
         "pts": 2,
@@ -345,8 +345,8 @@
       },
       {
         "code": "NZL",
-        "name": "New Zealand",
-        "short": "New Zealand",
+        "name": "Nuova Zelanda",
+        "short": "Nuova Zelanda",
         "flag": "nz",
         "played": 2,
         "pts": 1,
@@ -359,8 +359,8 @@
     "H": [
       {
         "code": "ESP",
-        "name": "Spain",
-        "short": "Spain",
+        "name": "Spagna",
+        "short": "Spagna",
         "flag": "es",
         "played": 2,
         "pts": 4,
@@ -383,8 +383,8 @@
       },
       {
         "code": "CPV",
-        "name": "Cape Verde",
-        "short": "Cape Verde",
+        "name": "Capo Verde",
+        "short": "Capo Verde",
         "flag": "cv",
         "played": 2,
         "pts": 2,
@@ -395,8 +395,8 @@
       },
       {
         "code": "KSA",
-        "name": "Saudi Arabia",
-        "short": "Saudi Arabia",
+        "name": "Arabia Saudita",
+        "short": "Arabia Saudita",
         "flag": "sa",
         "played": 2,
         "pts": 1,
@@ -409,8 +409,8 @@
     "I": [
       {
         "code": "FRA",
-        "name": "France",
-        "short": "France",
+        "name": "Francia",
+        "short": "Francia",
         "flag": "fr",
         "played": 2,
         "pts": 6,
@@ -421,8 +421,8 @@
       },
       {
         "code": "NOR",
-        "name": "Norway",
-        "short": "Norway",
+        "name": "Norvegia",
+        "short": "Norvegia",
         "flag": "no",
         "played": 2,
         "pts": 6,
@@ -495,8 +495,8 @@
       },
       {
         "code": "JOR",
-        "name": "Jordan",
-        "short": "Jordan",
+        "name": "Giordania",
+        "short": "Giordania",
         "flag": "jo",
         "played": 2,
         "pts": 0,
@@ -521,8 +521,8 @@
       },
       {
         "code": "COD",
-        "name": "DR Congo",
-        "short": "DR Congo",
+        "name": "RD Congo",
+        "short": "RD Congo",
         "flag": "cd",
         "played": 1,
         "pts": 1,
@@ -533,8 +533,8 @@
       },
       {
         "code": "POR",
-        "name": "Portugal",
-        "short": "Portugal",
+        "name": "Portogallo",
+        "short": "Portogallo",
         "flag": "pt",
         "played": 1,
         "pts": 1,
@@ -559,8 +559,8 @@
     "L": [
       {
         "code": "ENG",
-        "name": "England",
-        "short": "England",
+        "name": "Inghilterra",
+        "short": "Inghilterra",
         "flag": "gb-eng",
         "played": 1,
         "pts": 3,
@@ -595,8 +595,8 @@
       },
       {
         "code": "CRO",
-        "name": "Croatia",
-        "short": "Croatia",
+        "name": "Croazia",
+        "short": "Croazia",
         "flag": "hr",
         "played": 1,
         "pts": 0,
@@ -621,7 +621,7 @@
     {
       "group": "F",
       "code": "SWE",
-      "name": "Sweden",
+      "name": "Svezia",
       "flag": "se",
       "pts": 3,
       "gd": 0,
@@ -631,7 +631,7 @@
     {
       "group": "C",
       "code": "SCO",
-      "name": "Scotland",
+      "name": "Scozia",
       "flag": "gb-sct",
       "pts": 3,
       "gd": 0,
@@ -661,7 +661,7 @@
     {
       "group": "H",
       "code": "CPV",
-      "name": "Cape Verde",
+      "name": "Capo Verde",
       "flag": "cv",
       "pts": 2,
       "gd": 0,
@@ -671,7 +671,7 @@
     {
       "group": "G",
       "code": "BEL",
-      "name": "Belgium",
+      "name": "Belgio",
       "flag": "be",
       "pts": 2,
       "gd": 0,
@@ -681,7 +681,7 @@
     {
       "group": "K",
       "code": "POR",
-      "name": "Portugal",
+      "name": "Portogallo",
       "flag": "pt",
       "pts": 1,
       "gd": 0,
@@ -691,7 +691,7 @@
     {
       "group": "A",
       "code": "CZE",
-      "name": "Czechia",
+      "name": "Cechia",
       "flag": "cz",
       "pts": 1,
       "gd": -1,
@@ -711,7 +711,7 @@
     {
       "group": "B",
       "code": "BIH",
-      "name": "Bosnia & Herzegovina",
+      "name": "Bosnia ed Erzegovina",
       "flag": "ba",
       "pts": 1,
       "gd": -3,
