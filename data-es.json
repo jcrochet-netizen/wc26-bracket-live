@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T01:29:19.851Z",
+  "updated": "2026-06-23T05:46:19.012Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "es",
@@ -424,11 +424,11 @@
         "name": "Noruega",
         "short": "Noruega",
         "flag": "no",
-        "played": 1,
-        "pts": 3,
-        "gf": 4,
-        "ga": 1,
-        "gd": 3,
+        "played": 2,
+        "pts": 6,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
         "rank": 2
       },
       {
@@ -436,11 +436,11 @@
         "name": "Senegal",
         "short": "Senegal",
         "flag": "sn",
-        "played": 1,
+        "played": 2,
         "pts": 0,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
+        "gf": 3,
+        "ga": 6,
+        "gd": -3,
         "rank": 3
       },
       {
@@ -482,26 +482,26 @@
         "rank": 2
       },
       {
-        "code": "JOR",
-        "name": "Jordania",
-        "short": "Jordania",
-        "flag": "jo",
-        "played": 1,
-        "pts": 0,
-        "gf": 1,
-        "ga": 3,
-        "gd": -2,
-        "rank": 3
-      },
-      {
         "code": "ALG",
         "name": "Argelia",
         "short": "Argelia",
         "flag": "dz",
-        "played": 1,
+        "played": 2,
+        "pts": 3,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "rank": 3
+      },
+      {
+        "code": "JOR",
+        "name": "Jordania",
+        "short": "Jordania",
+        "flag": "jo",
+        "played": 2,
         "pts": 0,
-        "gf": 0,
-        "ga": 3,
+        "gf": 2,
+        "ga": 5,
         "gd": -3,
         "rank": 4
       }
@@ -611,10 +611,10 @@
     "A",
     "C",
     "D",
-    "E",
     "F",
     "G",
     "H",
+    "J",
     "K"
   ],
   "thirdsRanking": [
@@ -636,6 +636,16 @@
       "pts": 3,
       "gd": 0,
       "gf": 1,
+      "qualified": true
+    },
+    {
+      "group": "J",
+      "code": "ALG",
+      "name": "Argelia",
+      "flag": "dz",
+      "pts": 3,
+      "gd": -2,
+      "gf": 2,
       "qualified": true
     },
     {
@@ -696,7 +706,7 @@
       "pts": 1,
       "gd": -1,
       "gf": 0,
-      "qualified": true
+      "qualified": false
     },
     {
       "group": "B",
@@ -724,18 +734,8 @@
       "name": "Senegal",
       "flag": "sn",
       "pts": 0,
-      "gd": -2,
-      "gf": 1,
-      "qualified": false
-    },
-    {
-      "group": "J",
-      "code": "JOR",
-      "name": "Jordania",
-      "flag": "jo",
-      "pts": 0,
-      "gd": -2,
-      "gf": 1,
+      "gd": -3,
+      "gf": 3,
       "qualified": false
     }
   ]
