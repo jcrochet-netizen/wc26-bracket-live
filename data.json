@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:05:52.007Z",
+  "updated": "2026-06-24T01:23:51.332Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "fr",
@@ -582,40 +582,40 @@
         "rank": 2
       },
       {
-        "code": "PAN",
-        "name": "Panama",
-        "short": "Panama",
-        "flag": "pa",
-        "played": 1,
-        "pts": 0,
-        "gf": 0,
-        "ga": 1,
-        "gd": -1,
-        "rank": 3
-      },
-      {
         "code": "CRO",
         "name": "Croatie",
         "short": "Croatie",
         "flag": "hr",
-        "played": 1,
-        "pts": 0,
-        "gf": 2,
+        "played": 2,
+        "pts": 3,
+        "gf": 3,
         "ga": 4,
+        "gd": -1,
+        "rank": 3
+      },
+      {
+        "code": "PAN",
+        "name": "Panama",
+        "short": "Panama",
+        "flag": "pa",
+        "played": 2,
+        "pts": 0,
+        "gf": 0,
+        "ga": 2,
         "gd": -2,
         "rank": 4
       }
     ]
   },
   "best3": [
-    "A",
     "C",
     "D",
     "F",
     "G",
     "H",
     "J",
-    "K"
+    "K",
+    "L"
   ],
   "thirdsRanking": [
     {
@@ -636,6 +636,16 @@
       "pts": 3,
       "gd": 0,
       "gf": 1,
+      "qualified": true
+    },
+    {
+      "group": "L",
+      "code": "CRO",
+      "name": "Croatie",
+      "flag": "hr",
+      "pts": 3,
+      "gd": -1,
+      "gf": 3,
       "qualified": true
     },
     {
@@ -696,7 +706,7 @@
       "pts": 1,
       "gd": -1,
       "gf": 2,
-      "qualified": true
+      "qualified": false
     },
     {
       "group": "E",
@@ -716,16 +726,6 @@
       "pts": 1,
       "gd": -3,
       "gf": 2,
-      "qualified": false
-    },
-    {
-      "group": "L",
-      "code": "PAN",
-      "name": "Panama",
-      "flag": "pa",
-      "pts": 0,
-      "gd": -1,
-      "gf": 0,
       "qualified": false
     },
     {
