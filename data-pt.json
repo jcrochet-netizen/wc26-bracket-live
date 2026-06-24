@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T21:08:59.941Z",
+  "updated": "2026-06-24T22:45:51.519Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "pt",
@@ -62,11 +62,11 @@
         "name": "Suíça",
         "short": "Suíça",
         "flag": "ch",
-        "played": 2,
-        "pts": 4,
-        "gf": 5,
-        "ga": 2,
-        "gd": 3,
+        "played": 3,
+        "pts": 7,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
         "rank": 1
       },
       {
@@ -74,11 +74,11 @@
         "name": "Canadá",
         "short": "Canadá",
         "flag": "ca",
-        "played": 2,
+        "played": 3,
         "pts": 4,
-        "gf": 7,
-        "ga": 1,
-        "gd": 6,
+        "gf": 8,
+        "ga": 3,
+        "gd": 5,
         "rank": 2
       },
       {
@@ -86,11 +86,11 @@
         "name": "Bósnia e Herzegovina",
         "short": "Bósnia e Herzegovina",
         "flag": "ba",
-        "played": 2,
-        "pts": 1,
-        "gf": 2,
-        "ga": 5,
-        "gd": -3,
+        "played": 3,
+        "pts": 4,
+        "gf": 5,
+        "ga": 6,
+        "gd": -1,
         "rank": 3
       },
       {
@@ -98,11 +98,11 @@
         "name": "Catar",
         "short": "Catar",
         "flag": "qa",
-        "played": 2,
+        "played": 3,
         "pts": 1,
-        "gf": 1,
-        "ga": 7,
-        "gd": -6,
+        "gf": 2,
+        "ga": 10,
+        "gd": -8,
         "rank": 4
       }
     ],
@@ -608,7 +608,7 @@
     ]
   },
   "best3": [
-    "A",
+    "B",
     "C",
     "D",
     "F",
@@ -618,6 +618,16 @@
     "L"
   ],
   "thirdsRanking": [
+    {
+      "group": "B",
+      "code": "BIH",
+      "name": "Bósnia e Herzegovina",
+      "flag": "ba",
+      "pts": 4,
+      "gd": -1,
+      "gf": 5,
+      "qualified": true
+    },
     {
       "group": "F",
       "code": "SWE",
@@ -696,7 +706,7 @@
       "pts": 1,
       "gd": -1,
       "gf": 2,
-      "qualified": true
+      "qualified": false
     },
     {
       "group": "K",
@@ -716,16 +726,6 @@
       "pts": 1,
       "gd": -1,
       "gf": 0,
-      "qualified": false
-    },
-    {
-      "group": "B",
-      "code": "BIH",
-      "name": "Bósnia e Herzegovina",
-      "flag": "ba",
-      "pts": 1,
-      "gd": -3,
-      "gf": 2,
       "qualified": false
     },
     {
