@@ -34,10 +34,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- data.json data-en.json data-pt.json data-es.json bracket-live.html bracket-live-en.html bracket-live-pt.html bracket-live-es.html; then
+          if git diff --quiet -- data*.json bracket-live*.html; then
             echo "Aucun changement — rien à commit."
           else
-            git add data.json data-en.json data-pt.json data-es.json bracket-live.html bracket-live-en.html bracket-live-pt.html bracket-live-es.html
+            git add data*.json bracket-live*.html
             git commit -m "chore: refresh WC26 live standings [skip ci]"
             git push
             echo "Classements mis à jour et poussés."
