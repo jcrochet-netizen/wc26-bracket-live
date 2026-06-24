@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T19:09:44.922Z",
+  "updated": "2026-06-24T21:08:59.937Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "fr",
@@ -58,18 +58,6 @@
     ],
     "B": [
       {
-        "code": "CAN",
-        "name": "Canada",
-        "short": "Canada",
-        "flag": "ca",
-        "played": 2,
-        "pts": 4,
-        "gf": 7,
-        "ga": 1,
-        "gd": 6,
-        "rank": 1
-      },
-      {
         "code": "SUI",
         "name": "Suisse",
         "short": "Suisse",
@@ -79,6 +67,18 @@
         "gf": 5,
         "ga": 2,
         "gd": 3,
+        "rank": 1
+      },
+      {
+        "code": "CAN",
+        "name": "Canada",
+        "short": "Canada",
+        "flag": "ca",
+        "played": 2,
+        "pts": 4,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
         "rank": 2
       },
       {
