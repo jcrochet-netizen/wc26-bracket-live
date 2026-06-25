@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T20:54:13.277Z",
+  "updated": "2026-06-25T22:18:54.917Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "pt",
@@ -212,11 +212,11 @@
         "name": "Alemanha",
         "short": "Alemanha",
         "flag": "de",
-        "played": 2,
+        "played": 3,
         "pts": 6,
-        "gf": 9,
-        "ga": 2,
-        "gd": 7,
+        "gf": 10,
+        "ga": 4,
+        "gd": 6,
         "rank": 1
       },
       {
@@ -224,11 +224,11 @@
         "name": "Costa do Marfim",
         "short": "Costa do Marfim",
         "flag": "ci",
-        "played": 2,
-        "pts": 3,
-        "gf": 2,
+        "played": 3,
+        "pts": 6,
+        "gf": 4,
         "ga": 2,
-        "gd": 0,
+        "gd": 2,
         "rank": 2
       },
       {
@@ -236,11 +236,11 @@
         "name": "Equador",
         "short": "Equador",
         "flag": "ec",
-        "played": 2,
-        "pts": 1,
-        "gf": 0,
-        "ga": 1,
-        "gd": -1,
+        "played": 3,
+        "pts": 4,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
         "rank": 3
       },
       {
@@ -248,11 +248,11 @@
         "name": "Curaçao",
         "short": "Curaçao",
         "flag": "cw",
-        "played": 2,
+        "played": 3,
         "pts": 1,
         "gf": 1,
-        "ga": 7,
-        "gd": -6,
+        "ga": 9,
+        "gd": -8,
         "rank": 4
       }
     ],
@@ -612,12 +612,22 @@
     "B",
     "C",
     "D",
+    "E",
     "F",
-    "H",
     "J",
     "L"
   ],
   "thirdsRanking": [
+    {
+      "group": "E",
+      "code": "ECU",
+      "name": "Equador",
+      "flag": "ec",
+      "pts": 4,
+      "gd": 0,
+      "gf": 2,
+      "qualified": true
+    },
     {
       "group": "B",
       "code": "BIH",
@@ -696,7 +706,7 @@
       "pts": 2,
       "gd": 0,
       "gf": 2,
-      "qualified": true
+      "qualified": false
     },
     {
       "group": "G",
@@ -716,16 +726,6 @@
       "pts": 1,
       "gd": -1,
       "gf": 1,
-      "qualified": false
-    },
-    {
-      "group": "E",
-      "code": "ECU",
-      "name": "Equador",
-      "flag": "ec",
-      "pts": 1,
-      "gd": -1,
-      "gf": 0,
       "qualified": false
     },
     {
