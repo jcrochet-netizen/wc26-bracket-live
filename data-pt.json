@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T00:02:43.296Z",
+  "updated": "2026-06-27T04:33:06.723Z",
   "source": "SportMonks + classement FIFA (11/06/2026)",
   "season": "2026",
   "lang": "pt",
@@ -362,35 +362,35 @@
         "name": "Espanha",
         "short": "Espanha",
         "flag": "es",
-        "played": 2,
-        "pts": 4,
-        "gf": 4,
+        "played": 3,
+        "pts": 7,
+        "gf": 5,
         "ga": 0,
-        "gd": 4,
+        "gd": 5,
         "rank": 1
-      },
-      {
-        "code": "URU",
-        "name": "Uruguai",
-        "short": "Uruguai",
-        "flag": "uy",
-        "played": 2,
-        "pts": 2,
-        "gf": 3,
-        "ga": 3,
-        "gd": 0,
-        "rank": 2
       },
       {
         "code": "CPV",
         "name": "Cabo Verde",
         "short": "Cabo Verde",
         "flag": "cv",
-        "played": 2,
-        "pts": 2,
+        "played": 3,
+        "pts": 3,
         "gf": 2,
         "ga": 2,
         "gd": 0,
+        "rank": 2
+      },
+      {
+        "code": "URU",
+        "name": "Uruguai",
+        "short": "Uruguai",
+        "flag": "uy",
+        "played": 3,
+        "pts": 2,
+        "gf": 3,
+        "ga": 4,
+        "gd": -1,
         "rank": 3
       },
       {
@@ -398,8 +398,8 @@
         "name": "Arábia Saudita",
         "short": "Arábia Saudita",
         "flag": "sa",
-        "played": 2,
-        "pts": 1,
+        "played": 3,
+        "pts": 2,
         "gf": 1,
         "ga": 5,
         "gd": -4,
@@ -709,16 +709,6 @@
       "qualified": false
     },
     {
-      "group": "H",
-      "code": "CPV",
-      "name": "Cabo Verde",
-      "flag": "cv",
-      "pts": 2,
-      "gd": 0,
-      "gf": 2,
-      "qualified": false
-    },
-    {
       "group": "G",
       "code": "BEL",
       "name": "Bélgica",
@@ -726,6 +716,16 @@
       "pts": 2,
       "gd": 0,
       "gf": 1,
+      "qualified": false
+    },
+    {
+      "group": "H",
+      "code": "URU",
+      "name": "Uruguai",
+      "flag": "uy",
+      "pts": 2,
+      "gd": -1,
+      "gf": 3,
       "qualified": false
     },
     {
